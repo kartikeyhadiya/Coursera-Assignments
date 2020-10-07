@@ -1,0 +1,11 @@
+touch .gitignore       # for ignoring files
+git config --global user.name "Kartikey Hadiya"
+git config --global user.email "hadiyakartikey123@gmail.com"
+git init
+git add .
+git commit -m "Initial commit"
+git status #just to see
+ssh -keygen -t rsa -b 4096 -c "hadiyakartikey123@gmail.com"  # for private projects
+tail <path to td_rsa.pub>  # add this key to your github account
+git remote add origin git@github.com:kartikeyhadiya/Coursera-Assignments.git
+git push origin master
