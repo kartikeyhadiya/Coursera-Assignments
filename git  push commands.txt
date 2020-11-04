@@ -12,5 +12,5 @@ git push origin master
 
 ///// adding another folders
 
-git add "file-name"
-git add . 		##(add everything)
+git commit -m "commit name"
+ git push --set-upstream origin master
